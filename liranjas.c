@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <cs50.h>
 int main (void)
 {
-     x=sjnknsdds;
+    string x=sjnknsdds;
     printf("%f",x);
 }
