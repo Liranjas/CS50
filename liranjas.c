@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main (void)
 {
-    printf("liranjassssss");
+    x=sjnknsdds;
+    printf("%d",x);
 }
