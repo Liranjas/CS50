@@ -3,7 +3,8 @@ int main (void)
 {
     int first, last;
     printf("type first name: ");
-    scanf("%d",&first);
+    scanf("cl
+    %d",&first);
     printf("type second name: ");
     scanf("%d",&last);
 
