@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (void)
 {
-    x=sjnknsdds;
-    printf("%d",x);
+     x=sjnknsdds;
+    printf("%f",x);
 }
