@@ -7,12 +7,12 @@ int main (void)
 
     if (x > y)
     {
-        printf ("x is bigger/n");
+        printf ("x is bigger\n");
     }
     else
     {
         if (x < y)
-            printf("y is bigger/n");
+            printf("y is bigger\n");
         else
         printf("kkk/n");
     }
