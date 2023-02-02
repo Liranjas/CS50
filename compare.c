@@ -12,8 +12,8 @@ int main (void)
     else
     {
         if (x < y)
-            printf("y is bigger");
+            printf("y is bigger/n");
         else
-        printf("kkk");
+        printf("kkk/n");
     }
 }
