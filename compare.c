@@ -14,6 +14,6 @@ int main (void)
         if (x < y)
             printf("y is bigger\n");
         else
-        printf("kkk/n");
+        printf("kkk\n");
     }
 }
