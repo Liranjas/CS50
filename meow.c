@@ -4,7 +4,7 @@ int main (void)
     int i=0;
     while (i<39)
     {
-        printf("meow\n");
+        printf("miau\n");
         i++;
     }
 }
