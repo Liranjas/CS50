@@ -2,11 +2,12 @@
 #include <cs50.h>
 int main (void)
 {
-    int x= get_int("brick size: ");
-    while (x<1)
+    int x;
+    do
     {
-        printf("try again you dumb motafucka\n");
+        x= get_int("size of square");
     }
+    while (n<1);
 
     for (int j=0;j<x;j++)
     {
