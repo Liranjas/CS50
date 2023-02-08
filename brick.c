@@ -3,10 +3,11 @@
 int main (void)
 {
     int x= get_int("brick size: ");
-    if (x<1)
+    while (x<1)
     {
-        printf("you dumb motafucka\n");
+        printf("try again you dumb motafucka\n");
     }
+
     for (int j=0;j<x;j++)
     {
         for (int i=0 ; i<x ; i++)
