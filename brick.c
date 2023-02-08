@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main (void)
 {
-    for (int j=0;j<3;j++)
+    int const x=3; //square size
+    for (int j=0;j<x;j++)
     {
-        for (int i=0 ; i<3 ; i++)
+        for (int i=0 ; i<x ; i++)
         {
             printf("#");
         }
+        printf("\n");
     }
 }
