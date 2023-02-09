@@ -5,9 +5,9 @@ int main (void)
     int x;
     do
     {
-        x= get_int("size of square");
+        x= get_int("size of square: ");
     }
-    while (n<1);
+    while (x < 1);
 
     for (int j=0;j<x;j++)
     {
