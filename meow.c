@@ -6,5 +6,6 @@ int main (void)
     {
         printf("miau\n");
         i++;
+        printf("%d\n", i);
     }
 }
