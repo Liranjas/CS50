@@ -2,6 +2,7 @@
 #include <stdio.h>
 int main (void)
 {
+    int x=30;
     int scores[3];
     for (int i=0; i<3; i++)
     {
