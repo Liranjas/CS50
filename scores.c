@@ -3,7 +3,7 @@
 int main (void)
 {
     int scores[3];
-    for (i=0; i<3; i++)
+    for (int i=0; i<3; i++)
     {
         scores[i]= get_int("score:");
     }
