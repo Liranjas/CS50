@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-const int N =3;
+const int N =3;// global variable
 
 float average(int array[]);//implementation hint for compiler
 
@@ -14,6 +14,7 @@ int main (void)
     }
     printf("Average: %f\n", average(scores));
 }
+
 float average(int array[])
 {
     int sum=0;
