@@ -16,7 +16,7 @@ int main (void) // as abstraction, we have 1) get_int > to prompt scores (reques
     printf("Average: %f\n", average(scores));
 }
 //     ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-float average(int array[]) // implementation of function "average"
+float average(int array[]) // implementation of function "Average"
 {
     int sum=0;
     for (int i=0; i<N; i++)
