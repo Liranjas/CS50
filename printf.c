@@ -3,5 +3,5 @@
 int main (void)
 {
     string string= "hello";
-    printf("%s", string);
+    printf("%c %c %c ", string[0]);
 }
