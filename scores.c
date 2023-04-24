@@ -3,7 +3,7 @@
 
 const int N =3;
 
-float average(int array[]);
+float average(int array[]);//implementation hint for compiler
 
 int main (void)
 {
