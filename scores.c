@@ -7,7 +7,7 @@ float average(int array[]);//implementation hint for compiler
 
 int main (void)
 {
-    int scores [N];
+    int scores [N]; //that's an array
     for (int i=0; i<N; i++)
     {
         scores [i]= get_int("score: ");
