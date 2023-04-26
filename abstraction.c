@@ -1,6 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
+string greet (name);
+
 int main (void)
 {
     printf("%s", greet(name));
