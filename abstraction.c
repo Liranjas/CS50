@@ -3,5 +3,12 @@
 
 int main (void)
 {
-    printf()
+    printf("%f", greet(name));
+}
+
+string greet (name)
+{
+    string name= get_string("what's your name? ");
+    printf("hello, %s", name);
+    
 }
