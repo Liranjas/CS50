@@ -5,7 +5,7 @@ string greet (name);
 
 int main (void)
 {
-    printf("%s", greet(name));
+    greet(name);
 }
 
 string greet (name)
