@@ -5,7 +5,7 @@ string greet (name);
 
 int main (void)
 {
-    greet(name);
+    string greet(name);
 }
 
 string greet (name)
