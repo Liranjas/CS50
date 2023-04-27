@@ -7,6 +7,8 @@ string greet (name)
     printf("hello, %s", name);
 }
 
+string greet (name);
+
 int main (void)
 {
     string greet(name);
