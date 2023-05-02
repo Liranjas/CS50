@@ -14,3 +14,5 @@ int main (void)
 {
     printf("hello, %i", i)
 }
+
+////return is a function? how tf you implement your own functions and libraries
