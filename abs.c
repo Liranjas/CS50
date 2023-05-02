@@ -11,6 +11,6 @@ int main (void)
 
 string getname(name)
 {
-   string name = get_string("what's your name?: ")
+   const char* name = get_string("what's your name?: ")
    return name;
 }
