@@ -6,7 +6,7 @@
 
 const char* getname(void);
 
-string getname(name)
+const char* getname(name)
 {
    const char* name = get_string("what's your name?: ")
    return name;
