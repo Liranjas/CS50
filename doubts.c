@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-const char* getname(void);
+const char* getname(name);
 
 const char* getname(name)
 {
