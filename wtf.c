@@ -3,8 +3,9 @@
 
 string greet (string name)
 {
-    string name = get_string("what's your name? ");
+    name = get_string("what's your name? ");
     printf("hello, %s", name);
+    return name 
 }
 
 int main (void)
