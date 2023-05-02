@@ -1,3 +1,7 @@
+// return is a function? how tf you implement your own functions and libraries
+// how to use a function that you created, i dont have any header file how to define a function ?
+// does the compiler(or C language) knows that i am implementing a function?
+
 #include <stdio.h>
 
 const char* getname(void);
@@ -14,5 +18,3 @@ int main (void)
 {
     printf("hello, %i", i)
 }
-
-////return is a function? how tf you implement your own functions and libraries
