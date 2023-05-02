@@ -1,7 +1,14 @@
 #include <cs50.h>
 #include <stdio.h>
 
-name = get_string("what's your name? ");
+string name = get_string("what's your name? ");
+
+string greet (string name);
+
+int main (void)
+{
+    printf("helou, %s", greet(name));
+}
 
 string greet (string name)
 {
@@ -9,9 +16,3 @@ string greet (string name)
     printf("hello, %s", name);
     return name;
 }
-
-int main (void)
-{
-    printf("helou, %s", greet(name));
-}
-
