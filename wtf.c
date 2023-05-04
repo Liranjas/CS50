@@ -3,16 +3,15 @@
 
 string name = get_string("what's your name? ");
 
-string greet (string name);
+void greet (string name);
 
 int main (void)
 {
     printf("helou, %s", greet(name));
 }
 
-string greet (string name)
+void greet (string name)
 {
     name = get_string("what's your name? ");
     printf("hello, %s", name);
-    return name;
 }
