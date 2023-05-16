@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-void draw (int n)
+void draw (int n);
 
 int main(void)
 {
