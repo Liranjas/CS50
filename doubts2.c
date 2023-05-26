@@ -10,4 +10,5 @@ string printname (string n)
 int main (int argc, string argv[])
 {
     printname(argv[1]);
+    printf("%s", n);
 }
