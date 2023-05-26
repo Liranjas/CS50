@@ -3,11 +3,11 @@
 
 int main (int argc, string argv[])
 {
+    string n = get_string("what's your name?: \n");
+
     string printname (string n)
     {
-        n = get_string("what's your name?: \n");
         printf("%s",n);
 
     }
-    printname (argv[1]);
 }
