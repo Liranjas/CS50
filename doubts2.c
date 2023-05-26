@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <cs50.h>
 
-void printname (int n)
+string printname (string n)
 {
     n = get_string("what's your name?: /n");
+    return n;
 }
 
 int main (void)
 {
-    printname (n);
+    printname();
 }
