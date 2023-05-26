@@ -7,7 +7,7 @@ string printname (string n)
     return n;
 }
 
-int main (void)
+int main (n)
 {
-    printname();
+    printname(n);
 }
