@@ -3,9 +3,14 @@
 
 string printname (string n)
 
-    string n = get_string("what's your name?: \n");
+int main (void)
+{
+    printf();
+    printf("%s", n);
+}
 
-    string printname (string n)
-    {
-        printf("%s",n);
-    }
+string printname (string n)
+{
+    n = get_string("what's your name?: \n");
+    return n;
+}
