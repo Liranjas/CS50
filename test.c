@@ -4,7 +4,7 @@
 int main (void){
 
 int n=50;
-printf("string1");
+printf("%i\n", &n);
 
 }
 
