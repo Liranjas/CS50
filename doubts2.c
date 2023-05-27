@@ -5,7 +5,7 @@ int main (void)
 {
 
 string n = get_string("what's your name?: \n");
-getname(n);
+string ret = getname(n);
 
 string getname (string n)
 {
