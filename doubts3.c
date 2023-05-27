@@ -6,7 +6,7 @@ string printname (string n);
 int main (void)
 {
     string ret;
-    ret=printname (string n);
+    ret = printname (n);
     printf("%s\n", ret);
 }
 
