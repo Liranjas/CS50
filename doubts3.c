@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <cs50.h>
 
-string printname (string n)
+string printname (string n);
 
 int main (void)
 {
-    printf("%i);
+    string ret;
+    ret=printname (string n);
+    printf("%s\n", ret);
 }
 
 string printname (string n)
