@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
+string printname (string n)
+
 int main (void)
 {
 
