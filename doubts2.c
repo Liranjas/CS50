@@ -12,5 +12,5 @@ string getname (string n)
     n = get_string("what's your name?: \n");
     return n;
 }
-
+string ret = getname(n);
 }
