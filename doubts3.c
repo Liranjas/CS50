@@ -5,8 +5,7 @@ string printname (string n)
 
 int main (void)
 {
-    printf();
-    printf("%s", n);
+    printf("%i);
 }
 
 string printname (string n)
