@@ -3,8 +3,9 @@
 
 int main (void){
 
+int *p=&n
 int n=50;
-printf("%i\n", &n);
+printf("%p\n", &n);
 
 }
 
