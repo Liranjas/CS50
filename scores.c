@@ -24,4 +24,4 @@ float average(int array[]) // implementation of function "Average"
         sum= sum + array[i];
     }
     return sum / (float) N;
-}
+}'
