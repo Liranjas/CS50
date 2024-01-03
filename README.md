@@ -4,5 +4,5 @@ These files are a copy of a codespace with exercises from CS50 Harvard's Introdu
 
 
 
-PS: Disregard the funny comments - The studies ain't finished yet.
+Studies ain't finished
 
